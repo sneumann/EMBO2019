@@ -2,7 +2,7 @@
 To run this container image, start it with:
 
 ```
-docker run -d -p 8787:8787  sneumann/embo2018 
+docker run -d -p 8787:8787  sneumann/embo2019 
 ```
 
 Then point your browser at http://localhost:8787/
@@ -13,5 +13,5 @@ of the base image: https://github.com/rocker-org/rocker/wiki/Using-the-RStudio-i
 # Re-build this image
 
 ```
-docker build -t sneumann/embo2018 .
+docker build -t sneumann/embo2019 .
 ```
